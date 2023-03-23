@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.15.5"
+  },
+  "name": "labecommerce",
+  "version": "1.0.0",
+  "description": "atividade-1",
+  "main": "index.js",
+  "scripts": {
+    "start": " tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claraferreirabatista/typescript-I-exercicios.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "labecommerce"
+  ],
+  "author": "clara-ferreira-batita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claraferreirabatista/typescript-I-exercicios/issues"
+  },
+  "homepage": "https://github.com/claraferreirabatista/typescript-I-exercicios#readme"
+}
