@@ -79,16 +79,16 @@ function getProductById(idToSearch: string): Product | undefined {
   const productFound = products.find(product => product.id === idToSearch);
   return productFound;
 }
-
 const store: {
   products: Product[];
   purchases: Purchase[];
 } = {
-  products: [],
-  purchases: [],
+  products: products,
+  purchases:[],
 };
 
 function queryProductsByName(q: string): Product[] {
+
   const filteredProducts = store.products.filter(
     (product) =>
       product.name.toLowerCase().indexOf(q.toLowerCase()) !== -1
